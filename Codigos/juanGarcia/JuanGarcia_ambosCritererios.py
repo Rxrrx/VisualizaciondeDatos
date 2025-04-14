@@ -7,8 +7,9 @@ import matplotlib.pyplot as plt
 
 # Obtener la ruta absoluta del archivo
 ruta_actual = os.path.dirname(os.path.abspath(__file__))
-ruta_plantas = os.path.join(os.path.dirname(ruta_actual), 'Fuentes_de_Datos', '2023_0502_plantas_por_lineas.xlsx')
-ruta_variacion = os.path.join(os.path.dirname(ruta_actual), 'Fuentes_de_Datos', '2023_0201_series_2013-2023_v20240617.xls')
+ruta_base = os.path.dirname(os.path.dirname(ruta_actual))  # Subir dos niveles
+ruta_plantas = os.path.join(ruta_base, 'Fuentes de Datos', 'Datos_JuanGarcia', '2023_0502_plantas_por_lineas.xlsx')
+ruta_variacion = os.path.join(ruta_base, 'Fuentes de Datos', 'Datos_JuanGarcia', '2023_0201_series_2013-2023_v20240617.xls')
 
 # Leer el archivo de desembarque saltando las primeras 5 filas
 df_industrial = pd.read_excel(ruta_plantas, skiprows=3)
