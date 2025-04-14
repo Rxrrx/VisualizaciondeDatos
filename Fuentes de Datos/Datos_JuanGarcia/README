@@ -1,8 +1,0 @@
-Las fuentes de datos "desembarque_artesanal_por_region_2017-2.xlsx" y "desembarque_industrial_por_region_2017.xlsx" corresponden a los utilizados
-para el criterio 1, el cual es "comparación entre pesca artesanal e industrial", ambos fueron extraídos desde la página oficial de
-SERNAPESCA y corresponden a los desembarques tanto artesanal como industrial de cada región del país durante el año 2017.
-La fuente de datos "2.series_2007_-_2017-1.xlsx" al igual que las anteriores corresponden a la página oficial de SERNAPESCA y corresponde al 
-desembarque total de año a año desde 2007 a 2017, por otro lado, la fuente de datos "SST_ABSO_077.50W_072.50W_32.50S_27.xlsx" fue extraída desde 
-"https://surftemp.net/timeseries/index.html" y contiene la información de la temperatura del mar frente al país durante el año 2000 hasta el 2023
-(aun que solo utilicé desde 2007 a 2017 para que corresponda con mi otro dataset), estas dos fuentes de datos sirvieron para el segundo criterio
-el cual es "Incidencia del cambio climático en capturas".
