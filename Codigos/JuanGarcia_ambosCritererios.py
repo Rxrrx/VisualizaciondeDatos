@@ -75,7 +75,7 @@ fig_lines = px.area(df_plot,
                     x='Año', 
                     y='Valor', 
                     color='index',
-                    title='Evolución de los 5 Primeros Totales por Año<br><sup>Fuente: SERNAPESCA (series)</sup>',
+                    title='Evolución de pesca y recolecion Totales por Año<br><sup>Fuente: SERNAPESCA (series)</sup>',
                     line_shape='spline')  # Para suavizar las líneas
 
 fig_lines.update_layout(
